@@ -1,0 +1,51 @@
+body{
+    background-image: url('Imagenes/Porsche.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 90%;
+    /*Estilos para las hojas html*/
+    margin: 5px;
+    padding: 10px;
+  
+
+  }
+ 
+  h3{
+    text-align: center;
+    color: white;
+  }
+  p3{
+    color: white
+  }
+  
+  .btn-custom {
+    display: inline-block;
+    background-color: #d9ff00e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #00b309;
+    transform: scale(1.05);
+    color: white;
+}
+
+.container{
+  background-color: rgba(61, 62, 63, 0.274);
+  position: relative;
+  z-index: 2;
+  padding: 90px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(136, 137, 138, 0.603);
+  text-align: center;
+}
+
+

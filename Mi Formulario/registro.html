@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="Imagenes/logotipo porsche.jpg">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="form-container">
+        <p class="texto-medio">Registrate</p>
+    <form action="procesar_registro.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="Nombre" autocomplete="no-autocomplete" required>
+
+
+        <label for="cumpleaños">Fecha de Nacimiento:</label_registro>
+        <input type="date" name="Fecha_de_Nacimiento" step="1"min="1990-01-01" max="2050-12-31" >
+
+        <label for="carrera">Carrera:</label>
+        <input type="text" name="Carrera" autocomplete="no-autocomplete" required>
+
+        <label for="sexo">Sexo</label>
+        <select name="Sexo" class="select-styled">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select>
+
+        <label for="estado_civil">Estado Civil:</label>
+        <select name="Estado_Civil" class="select-styled">
+            <option value="soltero">Soltero(a)</option>
+            <option value="casado">Casado(a)</option>
+        </select>
+
+        <label for="email">Correo Electronico:</label>
+        <small>Introduce un correo electrónico válido. Ejemplo: ejemplo@dominio.com</small>
+        <input type="email" id="email" name="email" auto-complete="no-autocomplete" required>
+            <input type="submit" value="Iniciar">
+
+        </select>
+    </form> 
+    </div>
+
+</body>
+</html>

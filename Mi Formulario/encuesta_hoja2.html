@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cuestionario</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="icon" type="image/jpg" href="Imagenes/logotipo porsche.jpg">
+</head>
+<body>
+  <div class="form-container">
+  <form action="procesar_encuesta_hoja2.php" method="post">
+    <label for="pregunta4">4.Justifica tu respuesta de la pregunta anterior por favor</label>
+    <br><input type="text" name="pregunta4" required></br>
+  
+   <br><label for="pregunta5">5.¿Te parece atractivo el logotipo de Porsche?</label></br>
+    <input type="radio" id="si" name="pregunta5" value="Si" required>
+    <label for="diseno">(a).Si</label>
+    <input type="radio" id="no" name="pregunta5" value="No" required>
+    <label for="motor">(b).No</label>
+    
+    <br><label for="pregunta6">6.¿Hay alguna modificacion que quisieras que implementara la marca?, escribe tu respuesta</label></br>
+    <br><input type="text" name="pregunta6" autocomplete="no-autocomplete" required ></br>
+
+    <br><input type="submit" value="Enviar"></form></br>
+  </form>
+</body>
+</div>
+</html>

@@ -1,0 +1,184 @@
+
+  body{
+    background: url('Imagenes/fondo_gris_oscuro.jpg') no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /*Estilos para las hojas html*/
+    /*margin: 5px;*/
+    /*padding: 10px;*/
+    overflow: hidden;
+  }
+
+  .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Coloca la imagen de fondo detrás del contenido */
+    filter: blur(10px); /* Aplicar difuminado */ 
+
+  }
+
+
+/*.logo {
+   position: absolute;
+    width: 80px; /* Ajusta el tamaño del logotipo */
+    /*top: 52px;
+    right: 895px; 
+    height: auto;
+    z-index: 10; 
+    
+/*}
+  */
+
+  .textomedio{
+    text-align: center;
+    color: white;
+    font-size: 30px; /* Ajusta el tamaño según sea necesario */
+
+  }
+
+
+
+  /*form-container registro*/
+  .form-container{
+    background-image: url('Imagenes/Porsche Cayenne.jpg');
+    background-size: cover; /* Ajuste para no repetir la imagen y cubrir el contenedor */
+    background-color: rgba(138, 137, 136, 0.315);
+    position: center;
+    z-index: 2;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(231, 228, 228, 0.425);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+    z-index: 1;
+    /*width: 30px;*/
+    /*filter: blur(2px); /* Aplicar difuminado */
+    /*transition: filter 0.3s ease-in-out;*/
+  }
+
+  .form-container:hover {
+    filter: blur(0); /* Eliminar difuminado al pasar el ratón */
+}
+/*form transparente*/
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(241, 241, 241, 0.233); /* Fondo blanco semitransparente para el formulario */
+  /*background-image: url('Imagenes/Porsche Cayenne.jpg');*/
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+  
+  label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration-color: rgba(253, 253, 253, 0.979) ;
+    color: rgb(219, 217, 217);
+    
+}
+
+label{
+    font-weight: bold;
+    text-decoration: #f5f5f4;
+    color: #f3f3eb;
+
+}
+
+input[type="text"],
+.select-styled {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5c5a5acc;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration-color: #f0eded;
+    background-color:rgba(141, 138, 138, 0.185);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: rgba(104, 103, 103, 0.322);
+    color:rgba(241, 238, 238, 0.959);
+   /*background: url('flecha.png') no-repeat right center;*/
+    background-size: 20px;
+    padding-right: 30px; /* Ajusta el padding para evitar que el texto se superponga con la flecha */
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 30px;
+    background-color: #d9e716;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+input[type="submit"]:hover {
+    background-color: #09f009;
+    transform: scale(1.05);
+}
+
+/*.email-input{
+  width: 400px; /*Ajusta el tamaño segun tus necesidades*/
+  /*padding: 8px; /* Añade un poco de relleno para mejor apariencia*/
+  /*font-size: 40px; /*Ajusta el tamaño de la fuente*/
+
+
+
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #7c7979ef;
+    border-radius: 5px;
+    background-color: rgba(104, 103, 103, 0.466);
+}
+
+
+.option{
+  background-color: rgba(116, 115, 115, 0.185);
+
+}
+
+input[type="date"]{
+  width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #7c7979ef;
+    border-radius: 5px;
+    background-color: rgba(104, 103, 103, 0.466);
+
+}
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+
+
+
+

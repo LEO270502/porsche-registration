@@ -1,0 +1,62 @@
+body{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 90%;
+    /*Estilos para las hojas html*/
+    margin: 5px;
+    padding: 10px;
+
+  }
+
+  .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 129%;
+    height: 130%;
+    background: url('Imagenes/Porsche.jpg') no-repeat center center;
+    background-size: cover; /* Asegura que la imagen de fondo cubra toda la página */
+    z-index: -2; /* Coloca la imagen de fondo detrás del formulario */
+  }
+
+
+
+  h{
+    text-align: center;
+    color: white;
+  }
+  p, p1, p2, p3,p4{
+    color: white
+  }
+
+
+  .container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(241, 241, 241, 0.151);
+    position: relative;
+    z-index: 2;
+    padding: 90px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(136, 137, 138, 0.603);
+    text-align: center;
+  }
+  
+  .btn-custom {
+    display: inline-block;
+    background-color: #d9ff00e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #00b309;
+    transform: scale(1.05);
+    color: white;
+}
+

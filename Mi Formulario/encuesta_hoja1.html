@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset ="UTF-8">
+  <title>Cuestionario</title>
+  <link rel="stylesheet" href="estilos2.css">
+  <link rel="icon" type="image/jpg" href="Imagenes/logotipo porsche.jpg">
+</head>
+<body>
+  <h2>Bienvenid@ a la encuesta Porsche</h2>
+  <div class="form-container">
+  <form action="procesar_encuesta_hoja1.php" method="post">
+    <label for="pregunta1">1.¿Cual de los siguientes Porsche es tu favorito?</label>
+    <input type="radio" id="porsche_911" name="pregunta1" value="Porsche 911" required>
+      <label for="porsche_911">(a).Porsche 911</label>
+      <input type="radio" id="porsche_cayenne" name="pregunta1" value="Porsche Cayenne" required>
+      <label for="porsche_cayenne">(b).Porsche Cayenne</label>
+      <input type="radio" id="porsche_macan" name="pregunta1" value="Porsche Macan" required>
+      <label for="porsche_macan">(c).Porsche Macan</label>
+  
+    <label for="pregunta2">2.¿Que te gusta mas de los Porsche?</label>
+    <input type="radio" id="diseno" name="pregunta2" value="Diseño" required>
+    <label for="diseno">(a).Su diseño</label>
+    <input type="radio" id="motor" name="pregunta2" value="Motor" required>
+    <label for="motor">(b).Su motor</label>
+    <input type="radio" id="desempeno" name="pregunta2" value="Desempeño" required>
+    <label for="desempeno">(c).El desempeño y la velocidad que alcanzan</label>
+    
+    
+
+    <label for="pregunta3">3.¿Consideras que la app Porsche Connect es una buena herramienta para este tipo de coches?</label>
+    <input type="radio" id="si" name="pregunta3" value="Si" required>
+      <label for="si">(a).Si</label>
+      <input type="radio" id="no" name="pregunta3" value="No" required>
+      <label for="no">(b).No</label>
+    
+
+    <input type="submit" value="Siguiente pagina">
+  </form>
+</body>
+</div>
+</html>

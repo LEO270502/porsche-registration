@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('Imagenes/Fondo de pantalla porsche.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    height: 80vh;
+}
+
+h2 {
+    color: white;
+    align-items: center;
+    height: 40vh;
+    width: -30%;
+} 
+
+
+.form-container{
+    background: #27272785;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(63, 63, 62, 0.342);
+    max-width: 400px;
+    width: 90%;
+    filter: blur (2px);
+    height: 40vh;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f1eeee;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #f5f10f;
+    border: none;
+    border-radius: 4px;
+    color: rgb(245, 244, 239);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #48db48e0;
+}
+
